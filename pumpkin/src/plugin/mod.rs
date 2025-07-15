@@ -11,6 +11,7 @@ use thiserror::Error;
 use tokio::sync::RwLock;
 
 pub mod api;
+pub mod config;
 pub mod loader;
 
 use crate::{PERMISSION_MANAGER, server::Server};
